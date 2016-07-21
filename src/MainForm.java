@@ -339,6 +339,7 @@ public class MainForm {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("MainForm");
+        frame.setExtendedState(Frame.MAXIMIZED_BOTH);
         frame.setContentPane(new MainForm().rootPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
